@@ -12,5 +12,8 @@
  - [ ] Implement Redux to make managing state much simpler; compared to chaining props
  - [ ] Implement AJAX calls to save and/or store user data
 
+## Credits
+ * Credits to @mschwarzmueller for burger ingredients CSS styles
+ 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
