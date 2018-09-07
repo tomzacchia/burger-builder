@@ -1,5 +1,4 @@
 .SideDrawer{
-    padding: 32px 16px;
     position: fixed;
     width: 70%;
     height: 100%;
@@ -10,7 +9,6 @@
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
 }
-
 @media (min-width: 500px){
     .SideDrawer {
         display: none;
@@ -24,8 +22,19 @@
     transform: translateX(-100%);
 }
 
+.closeButton {
+    background-color: var(--primary-dark);
+}
+.closeButton i{
+    padding: 0 0.5rem;
+    font-size: 3rem;
+    color: white;
+}
+
 .logoContainer{
+    padding: 2rem 0;
     height: 5rem;
     display: flex;
     justify-content: center;
 }
+

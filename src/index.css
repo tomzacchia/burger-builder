@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: "Open Sans",sans-serif;
 }
+
+:root{
+  --primary: #6d4c41;
+  --primary-dark:#3e2723;
+  --primary-light: #a1887f;
+  --accent: #41626d;
+  --accent-light: #8cacb7;
+  --accent-dark: #233941;
+}

@@ -5,7 +5,11 @@ import NavLinks  from '../NavLinks/NavLinks';
 
 const toolbar = (props) => (
     <header className = {css.Toolbar}>
-        <div> Menu </div>
+        <div onClick={props.sideDrawerToggle} className={css.Hamburger}>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <Logo />
         <nav className = {css.desktopNav}>
             <NavLinks />            
