@@ -1,0 +1,14 @@
+ul{
+    padding: 0 2rem;
+    list-style: none;
+}
+li{
+    display: flex;
+}
+h3{
+    color: var(--accent);
+}
+
+.ingredientQuantity{
+    width: 5rem;
+}

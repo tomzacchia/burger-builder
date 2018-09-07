@@ -10,7 +10,7 @@
 
 .OrderButton {
     padding: 1rem 0;
-    width: 50%;
+    width: 280px;
     background-color: var(--primary);
     outline: none;
     border: none;

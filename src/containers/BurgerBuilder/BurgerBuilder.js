@@ -22,6 +22,7 @@ class BurgerBuilder extends Component {
         },
         totalPrice: 3.99,
         purchaseable: false,
+        // default --> false
         purchasing: false,
     }
 
