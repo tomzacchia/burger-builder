@@ -5,9 +5,12 @@ import Backdrop from '../Backdrop/Backdrop';
 
 // pureComponent would check all the props
 class Modal extends Component {
-    // here Modal wraps the orderSummary, therefore orderSummary will not update unless it needs to 
+    // here Modal wraps the orderSummary, therefore orderSummary will not update unless it needs to
+    // this lifecycle hooks prevents the side effects of AJAX from causing modal to update infinitely
     shouldComponentUpdate(nextProps, nextState){
-        return nextProps.show !== this.props.show
+        // return true if props change or children change (orderSummary swaped to display spinner)
+        return nextProps.show !== this.props.show ||
+            nextProps.children !== this.props.children
     }
     componentWillUpdate(){
         console.log('[Modal] will update')
