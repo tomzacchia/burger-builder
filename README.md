@@ -7,10 +7,10 @@
   * [React 16](https://reactjs.org/) 
   
 ## Future Improvements / Functionality
- - [ ] Make use of LocalStorage to persist app state
- - [ ] Add routing to navigate user to "purchase page" and really turn webApp into single page application
- - [ ] Implement Redux to make managing state much simpler; compared to chaining props
- - [ ] Implement AJAX calls to save and/or store user data
+ * Make use of LocalStorage to persist app state
+ * Add routing to navigate user to "purchase page" and really turn webApp into single page application
+ * Implement Redux to make managing state much simpler; compared to chaining props
+ * ~~Make AJAX request to save purchase orders and initialize burger ingredients at app start up~~
 
 ## Credits
  * Credits to @mschwarzmueller for burger ingredients CSS styles
